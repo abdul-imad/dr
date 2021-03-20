@@ -396,7 +396,7 @@ footer{
 @media screen and (max-width: 768px) {
     /*Small smartphones [325px -> 425px]*/
     
-        .parallax, .parallax1 {
+        .parallax-I, .parallax1-I, .parallax-II, .parallax1-II {
             background-attachment: scroll;
         }
     .navbar-nav a {
@@ -436,7 +436,7 @@ footer{
         width: 90%;
         margin: 0 auto;
     }
-    .para-text{
+    .para-text-I, .para-text-II{
         font-size: 64px;
     }
 }
@@ -483,7 +483,7 @@ footer{
     input[type=submit]{
         height: 50px;
     }
-    .para-text{
+    .para-text-I, .para-text-II{
         font-size: 48px;
         height: 150px;
     }
@@ -549,7 +549,7 @@ footer{
         background-color: #18191d !important;
         color: #e6e6e6 !important;
     }
-    .para-text{
+    .para-text-I, .para-text-II{
         font-size: 34px;
     }
 }
