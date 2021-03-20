@@ -226,27 +226,11 @@ span:hover{
 }
 
 #services{
-    padding-top: 10%;
+    background-color: #18191d;
     width: 100%;
-    display: block;
-}
-
-.our-services h2{
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 5%;
-}
-
-.our-services{
-    padding: 0 20%;
-}
-
-.services{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    height: 100vh;
+    color: #e9e9e9;
+    padding-top: 5%;
 }
 
 
