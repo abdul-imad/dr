@@ -137,8 +137,6 @@ span:hover{
     text-align: center;
 }
 
-
-
 .about-img img{
     width: 50%;
     min-width: 100px;
@@ -228,9 +226,21 @@ span:hover{
 #services{
     background-color: #18191d;
     width: 100%;
-    height: 100vh;
+    /* height: ; */
     color: #e9e9e9;
     padding-top: 5%;
+}
+
+.our-services{
+    text-align: center;
+}
+
+.service{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10% ;
+
 }
 
 
@@ -354,10 +364,7 @@ footer{
     color: #0088cc;
 }
 
-
 /* media queries */
-
-
 @media screen and (max-width: 1000px) {
     about-text h2{
         font-size: 32px;
